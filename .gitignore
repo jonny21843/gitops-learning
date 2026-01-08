@@ -1,0 +1,27 @@
+﻿# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/crash.*.log
+
+# Terraform variable files (optional - keep if you want)
+**/*.tfvars
+**/*.tfvars.json
+
+# Keys / secrets
+**/*.pem
+**/*.key
+**/id_rsa
+**/id_ed25519
+**/*secret*
+**/.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+**/password
